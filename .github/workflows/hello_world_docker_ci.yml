@@ -2,7 +2,7 @@ name: CI Build for Docker Action
 on:
   push:
     branches: [ main ]
-    paths: [ github_actions_workshop/** ]
+    paths: [ ./** ]
   workflow_dispatch:
 
 jobs:
